@@ -3,7 +3,16 @@
 const articleId="growing_philosophy";
 const pageContext="piano_educator_growing_essay";
 window.dataLayer=window.dataLayer||[];
-function emit(event,params){window.dataLayer.push(Object.assign({event:event,article_id:articleId,page_context:pageContext},params||{}));}
+function emit(event,params){
+  const details=Object.assign({article_id:articleId,page_context:pageContext},params||{});
+  // First-party events are available in GTM Preview.
+  window.dataLayer.push(Object.assign({event:event},details));
+  // Forward the same event to the GA4 stream via the GTM-managed Google tag.
+  // No second Google tag configuration or duplicate page_view is created.
+  const ga4Params=Object.assign({send_to:"G-86NYW35RHL"},details);
+  if(typeof window.gtag==="function")window.gtag("event",event,ga4Params);
+  else window.dataLayer.push((function(){return arguments;})("event",event,ga4Params));
+}
 const year=document.getElementById("copyright-year");if(year)year.textContent=String(new Date().getFullYear());
 emit("lp_article_ready",{content_group:"education_essay"});
 const milestones=[25,50,75,90,100],fired=new Set();
@@ -28,8 +37,8 @@ document.addEventListener("click",e=>{
 const anchor=e.target.closest("a[href]");if(!anchor)return;
 const href=anchor.getAttribute("href")||"";
 if(href.startsWith("#"))emit("lp_internal_navigation",{target_section:href.slice(1),nav_location:anchor.closest(".toc-grid")?"table_of_contents":anchor.closest(".header-nav")?"header":"body"});
+else if(anchor.closest(".related-story"))emit("lp_related_article_click",{related_article:anchor.href.includes("/teach/")?"teaching_philosophy":"learning_philosophy"});
 else if(anchor.closest("#sources"))emit("lp_reference_click",{reference_host:new URL(anchor.href).hostname});
-else if(anchor.closest(".related-story"))emit("lp_related_article_click",{related_article:"teaching_philosophy"});
 });
 let duration=0;const sent=new Set();const timer=setInterval(()=>{
 if(document.visibilityState!=="visible")return;duration+=5;
