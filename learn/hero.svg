@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 840" width="800" height="840" role="img" aria-labelledby="title desc">
+<title id="title">学ぶとは何か - 音と気づきのイラスト</title>
+<desc id="desc">柔らかな緑と桃色の背景に、白と深緑のピアノ鍵盤、五線譜、音符、花、開いたノートが描かれている</desc>
+<defs>
+<linearGradient id="pastel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8e8e2"/><stop offset=".48" stop-color="#e4eee6"/><stop offset="1" stop-color="#f6e9d9"/></linearGradient>
+<linearGradient id="keybox" x1="0" y1="0" x2="1" y2=".8"><stop stop-color="#83aa9a"/><stop offset="1" stop-color="#406c67"/></linearGradient>
+<filter id="soft"><feDropShadow dx="0" dy="17" stdDeviation="17" flood-color="#43625d" flood-opacity=".15"/></filter>
+</defs>
+<path d="M135 148C237 37 445 15 600 93c150 76 190 253 149 404-47 171-217 273-381 272C175 771 73 632 77 445c2-140-26-210 58-297Z" fill="url(#pastel)"/>
+<circle cx="590" cy="236" r="127" fill="#fff7ec" opacity=".57"/>
+<path d="M98 260c146-86 311-85 451 12" stroke="#9ebcac" stroke-width="2" stroke-dasharray="6 12" fill="none"/>
+<!-- piano -->
+<g transform="translate(132 343) rotate(-8 260 170)" filter="url(#soft)">
+ <rect width="526" height="329" rx="23" fill="url(#keybox)"/>
+ <rect x="17" y="20" width="492" height="61" rx="9" fill="#38635f"/>
+ <path d="M61 49c133-18 268-17 403 0" stroke="#9cbfb0" stroke-width="3" fill="none" stroke-linecap="round"/>
+ <circle cx="472" cy="46" r="7" fill="#d3ac9f"/>
+ <rect x="23" y="92" width="481" height="215" rx="9" fill="#fffefa"/>
+ <g stroke="#a7b2aa" stroke-width="2"><path d="M58 92v215M93 92v215M128 92v215M163 92v215M198 92v215M233 92v215M268 92v215M303 92v215M338 92v215M373 92v215M408 92v215M443 92v215M478 92v215"/></g>
+ <g fill="#314b4d"><rect x="45" y="92" width="24" height="125" rx="4"/><rect x="80" y="92" width="24" height="125" rx="4"/><rect x="150" y="92" width="24" height="125" rx="4"/><rect x="185" y="92" width="24" height="125" rx="4"/><rect x="220" y="92" width="24" height="125" rx="4"/><rect x="290" y="92" width="24" height="125" rx="4"/><rect x="325" y="92" width="24" height="125" rx="4"/><rect x="395" y="92" width="24" height="125" rx="4"/><rect x="430" y="92" width="24" height="125" rx="4"/><rect x="465" y="92" width="24" height="125" rx="4"/></g>
+</g>
+<!-- open notebook -->
+<g transform="translate(332 128) rotate(13)" filter="url(#soft)">
+<rect width="295" height="200" rx="16" fill="#fffdfa"/>
+<path d="M148 12v175" stroke="#d8ded4" stroke-width="4"/>
+<path d="M24 42h103M24 65h103M24 88h103M24 111h103M170 42h103M170 65h103M170 88h103M170 111h103" stroke="#cfdcd3" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M26 162q27-45 52-6t48-13" fill="none" stroke="#d7a29a" stroke-width="3.3" stroke-linecap="round"/>
+<path d="M184 152l20-24 18 20 37-40" stroke="#83ab96" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="258" cy="108" r="6" fill="#b7a4bd"/>
+</g>
+<!-- ear/listening graphic -->
+<g transform="translate(120 147)">
+<circle cx="54" cy="60" r="81" fill="#fffbf5" opacity=".93"/>
+<path d="M35 102c-19-5-27-31-14-47C28 46 30 24 52 24c24 0 36 17 33 39-3 20-28 20-27 38" fill="none" stroke="#a9bfad" stroke-width="8" stroke-linecap="round"/>
+<path d="M39 72c-3-12 5-23 18-24 10-1 16 8 14 18" fill="none" stroke="#bf8f83" stroke-width="6" stroke-linecap="round"/>
+<path d="M100 5q32-13 45 9M98 21q22-6 32 9" fill="none" stroke="#b1c6b8" stroke-width="3" stroke-linecap="round"/>
+</g>
+<!-- leaves -->
+<g transform="translate(668 487)">
+<path d="M-25 240Q-38 123-5-45M-26 239Q28 119 76 12M-26 239Q-99 123-117 48" stroke="#729985" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M-36 140q-50-70-88-53 5 53 88 53M-15 145q48-80 87-71 1 54-87 71M-18 85q-43-65-74-49 3 41 74 49" fill="#adcbb5"/>
+<g fill="#edc3ba"><ellipse cx="-5" cy="-55" rx="24" ry="35"/><ellipse cx="-5" cy="-55" rx="24" ry="35" transform="rotate(72 -5 -55)"/><ellipse cx="-5" cy="-55" rx="24" ry="35" transform="rotate(144 -5 -55)"/><ellipse cx="-5" cy="-55" rx="24" ry="35" transform="rotate(216 -5 -55)"/><ellipse cx="-5" cy="-55" rx="24" ry="35" transform="rotate(288 -5 -55)"/></g><circle cx="-5" cy="-55" r="18" fill="#d7a68d"/>
+<g transform="translate(78 8) scale(.71)" fill="#f6dfb7"><ellipse cy="-36" rx="23" ry="31"/><ellipse cy="-36" rx="23" ry="31" transform="rotate(90 0 -36)"/><ellipse cy="-36" rx="23" ry="31" transform="rotate(180 0 -36)"/><ellipse cy="-36" rx="23" ry="31" transform="rotate(270 0 -36)"/><circle cy="-36" r="17" fill="#c8aa88"/></g>
+</g>
+<!-- free notes -->
+<g font-family="Georgia,serif" fill="#a7bcae"><text x="249" y="289" font-size="56" transform="rotate(-14 249 289)">♫</text><text x="593" y="751" font-size="60" transform="rotate(17 593 751)">♪</text><text x="73" y="538" font-size="44" fill="#cd9d91">♩</text></g>
+<g fill="#be9790"><circle cx="337" cy="87" r="7"/><circle cx="709" cy="328" r="5"/><circle cx="232" cy="715" r="5"/><circle cx="478" cy="745" r="4"/></g>
+<g stroke="#95afa1" stroke-linecap="round" stroke-width="4"><path d="M104 342v26m-13-13h26M687 384v26m-13-13h26M312 217v18m-9-9h18"/></g>
+</svg>
