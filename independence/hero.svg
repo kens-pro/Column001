@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 840" width="800" height="840" role="img" aria-labelledby="title desc">
+<title id="title">「自立」とは何か - 音楽とコンパス</title><desc id="desc">淡いブルーグレーとクリーム色の背景に、ピアノの鍵盤、方位を示すコンパス、楽譜の道と音符が広がるイラスト。</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f9e8e1"/><stop offset=".52" stop-color="#e6eff0"/><stop offset="1" stop-color="#f7eadc"/></linearGradient><linearGradient id="piano" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#8caeb2"/><stop offset="1" stop-color="#3e6970"/></linearGradient><filter id="sh"><feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#375f67" flood-opacity=".16"/></filter></defs>
+<path d="M143 123C276 25 475 36 617 114c149 82 177 265 121 432-58 174-241 245-404 216C159 730 60 608 79 428c11-125-21-218 64-305Z" fill="url(#bg)"/>
+<circle cx="585" cy="208" r="133" fill="#fffaf4" opacity=".65"/>
+<!-- sheet music trail: a journey -->
+<path d="M164 398C228 315 306 299 367 355S511 399 604 302" fill="none" stroke="#b5c9c1" stroke-width="8" stroke-linecap="round" stroke-dasharray="3 21"/>
+<path d="M151 428C219 347 294 331 359 386S500 427 609 334" fill="none" stroke="#d5b2a5" stroke-width="3" stroke-linecap="round"/>
+<g transform="translate(115 512) rotate(-8 298 110)" filter="url(#sh)">
+<rect width="588" height="229" rx="24" fill="url(#piano)"/><rect x="17" y="18" width="554" height="44" rx="9" fill="#355e64"/><path d="M48 40H536" stroke="#a4c2bf" stroke-width="3"/><circle cx="538" cy="40" r="6" fill="#dbba9d"/>
+<rect x="20" y="72" width="548" height="135" rx="8" fill="#fffefa"/>
+<g stroke="#a7b9b9" stroke-width="2"><path d="M60 72v135M100 72v135M140 72v135M180 72v135M220 72v135M260 72v135M300 72v135M340 72v135M380 72v135M420 72v135M460 72v135M500 72v135M540 72v135"/></g>
+<g fill="#314e56"><rect x="47" y="72" width="26" height="84" rx="4"/><rect x="87" y="72" width="26" height="84" rx="4"/><rect x="167" y="72" width="26" height="84" rx="4"/><rect x="207" y="72" width="26" height="84" rx="4"/><rect x="247" y="72" width="26" height="84" rx="4"/><rect x="327" y="72" width="26" height="84" rx="4"/><rect x="367" y="72" width="26" height="84" rx="4"/><rect x="447" y="72" width="26" height="84" rx="4"/><rect x="487" y="72" width="26" height="84" rx="4"/><rect x="527" y="72" width="26" height="84" rx="4"/></g>
+</g>
+<!-- compass: own direction -->
+<g transform="translate(413 265)" filter="url(#sh)">
+<circle r="144" fill="#fffdfa"/><circle r="127" fill="#eff3ed" stroke="#a7c2bb" stroke-width="3"/><circle r="105" fill="#faf8f1" stroke="#d9d8c9" stroke-width="2"/>
+<g stroke="#9cb8b4" stroke-width="2"><path d="M0-111v19M0 92v19M-111 0h19M92 0h19"/><path d="M-76-76l12 12M64 64l12 12M-76 76l12-12M64-64l12-12"/></g>
+<path d="M0-98L24-15 0 0-24-15Z" fill="#c99082"/><path d="M0 98L24 15 0 0-24 15Z" fill="#7baba8"/><path d="M-98 0L-15-24 0 0-15 24Z" fill="#b4c5bd"/><path d="M98 0L15-24 0 0 15 24Z" fill="#b4c5bd"/>
+<circle r="16" fill="#fffdf9" stroke="#bca28e" stroke-width="3"/><circle r="5" fill="#cfaa8d"/>
+<g fill="#55797c" font-family="Georgia,serif" text-anchor="middle"><text x="0" y="-114" font-size="20">N</text><text x="0" y="127" font-size="17">S</text><text x="119" y="6" font-size="17">E</text><text x="-120" y="6" font-size="17">W</text></g>
+</g>
+<!-- decorative notes -->
+<g font-family="Georgia,serif" fill="#bf938a"><text x="169" y="257" font-size="76" transform="rotate(-15 169 257)">♫</text><text x="607" y="389" font-size="70" transform="rotate(17 607 389)">♪</text><text x="92" y="474" font-size="46">♩</text></g>
+<g fill="#c7b19d"><circle cx="204" cy="156" r="7"/><circle cx="631" cy="198" r="6"/><circle cx="653" cy="468" r="5"/><circle cx="242" cy="440" r="4"/></g>
+<g stroke="#a2bdb7" stroke-width="4" stroke-linecap="round"><path d="M154 344v24m-12-12h24M663 278v24m-12-12h24M286 153v20m-10-10h20"/></g>
+<g transform="translate(576 707) rotate(8)"><rect width="138" height="44" rx="22" fill="#fffefa" opacity=".94"/><text x="69" y="29" font-family="Georgia,serif" font-size="19" fill="#668d91" text-anchor="middle">choose.</text></g>
+</svg>
